@@ -1,0 +1,6 @@
+.job-list {
+    background-color: '#e1f1f7';
+    width: '500px';
+    height: '500px';
+    overflow: 'auto';
+}

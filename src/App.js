@@ -1,9 +1,12 @@
 import React from "react";
-import Job from "./JobList/job";
-function App() {
-  return (
-    <Job />
-  );
+import { BrowserRouter as Router } from "react-router-dom";
+import Routes from "./routes";
+export default class App extends React.Component {
+  render() {
+    return (
+      <Router>
+        <Routes/>
+      </Router>
+    );
+  }
 }
-
-export default App;
